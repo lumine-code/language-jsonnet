@@ -1,0 +1,23 @@
+{
+  "name": "Jsonnet",
+  "scopeName": "source.jsonnet",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-jsonnet",
+  "injectionRegex": "^(jsonnet)$",
+  "fileTypes": ["jsonnet", "libsonnet"],
+  "comments": {
+    "start": "/ "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:sourcegraph/tree-sitter-jsonnet#ddd075f1939aed8147b7aa67f042eda3fce22790",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-jsonnet/tree-sitter-jsonnet.wasm",
+    "localsQuery": "tree-sitter-jsonnet/locals.scm",
+    "highlightsQuery": "tree-sitter-jsonnet/highlights.scm",
+    "foldsQuery": "tree-sitter-jsonnet/folds.scm",
+    "indentsQuery": "tree-sitter-jsonnet/indents.scm"
+  }
+}
