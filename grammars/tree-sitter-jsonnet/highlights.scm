@@ -70,7 +70,7 @@
 ] @punctuation.separator.key-value.visibility.jsonnet
 
 (field
-  (fieldname) "+" @punctuation.special)
+  (fieldname) "+" @punctuation.separator.key-value.inheritance.jsonnet)
 
 ; Imports
 [
