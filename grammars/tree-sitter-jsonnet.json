@@ -1,7 +1,7 @@
 {
   "name": "Jsonnet",
   "scopeName": "source.jsonnet",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-jsonnet",
   "injectionRegex": "^(jsonnet)$",
   "fileTypes": ["jsonnet", "libsonnet"],
