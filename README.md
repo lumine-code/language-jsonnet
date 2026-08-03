@@ -10,6 +10,10 @@ Jsonnet language support.
 - **Folding**: folds objects and arrays.
 - **Locals**: resolves `local` bindings and parameters.
 
+## Installation
+
+To install `language-jsonnet` search for _language-jsonnet_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-jsonnet`.
+
 ## Services
 
 - **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.
