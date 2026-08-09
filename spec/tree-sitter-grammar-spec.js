@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("Jsonnet Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-jsonnet");
+    await lumine.packages.activatePackage("language-jsonnet");
   });
 
   it("tokenizes the fixture", async () => {
