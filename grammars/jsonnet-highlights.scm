@@ -1,5 +1,6 @@
 (id) @variable.other.jsonnet
-(comment) @comment.line.jsonnet
+((comment) @comment.line.jsonnet
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 ; Literals
 (null) @constant.language.jsonnet
