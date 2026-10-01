@@ -17,6 +17,7 @@
     "grammar": "jsonnet.wasm",
     "localsQuery": "jsonnet-locals.scm",
     "highlightsQuery": "jsonnet-highlights.scm",
+    "injectionsQuery": "jsonnet-injections.scm",
     "foldsQuery": "jsonnet-folds.scm",
     "indentsQuery": "jsonnet-indents.scm"
   }
