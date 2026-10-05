@@ -19,6 +19,7 @@
     "highlightsQuery": "jsonnet-highlights.scm",
     "injectionsQuery": "jsonnet-injections.scm",
     "foldsQuery": "jsonnet-folds.scm",
-    "indentsQuery": "jsonnet-indents.scm"
+    "indentsQuery": "jsonnet-indents.scm",
+    "tagsQuery": "jsonnet-tags.scm"
   }
 }

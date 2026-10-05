@@ -1,0 +1,37 @@
+{
+  "source.jsonnet": {
+    "text": "local size = 2; local make(x) = {name: x}; { service: {port: size}, render(x): make(x), \"quoted\": true }",
+    "symbols": [
+      {
+        "name": "size",
+        "tag": "variable"
+      },
+      {
+        "name": "make",
+        "tag": "function"
+      },
+      {
+        "name": "name",
+        "tag": "property"
+      },
+      {
+        "name": "service",
+        "tag": "property"
+      },
+      {
+        "name": "port",
+        "tag": "property"
+      },
+      {
+        "name": "render",
+        "tag": "method"
+      },
+      {
+        "name": "quoted",
+        "tag": "property"
+      }
+    ],
+    "absent": ["x"],
+    "only": true
+  }
+}
