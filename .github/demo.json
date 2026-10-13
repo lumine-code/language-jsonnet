@@ -1,0 +1,16 @@
+{
+  "title": "language-jsonnet",
+  "description": "Jsonnet syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "de5ee6f1d42c4ba08eaa50aaa50f45ef712ecd04",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Jsonnet syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}

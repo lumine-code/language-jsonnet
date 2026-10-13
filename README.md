@@ -10,6 +10,8 @@ Jsonnet language support.
 - **Folding**: folds objects and arrays.
 - **Locals**: resolves `local` bindings and parameters.
 
+![Jsonnet syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-jsonnet` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-jsonnet`.
