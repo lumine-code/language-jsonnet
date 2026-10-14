@@ -1,16 +1,61 @@
 {
   "title": "language-jsonnet",
-  "description": "Jsonnet syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "de5ee6f1d42c4ba08eaa50aaa50f45ef712ecd04",
+  "description": "Jsonnet syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "ab1ab1f42eeff8fe0448797622821798af5ea614",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "a9ff1d35cfd43167deb40d0c71552b19af5a0abb84dec72e5a1ddf7830c4196e",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "af0ec098e764416df9522f3c6e555050b520e4700da382b2b983b2ff3742bd0a"
+    },
+    "package": {
+      "revision": "ab1ab1f42eeff8fe0448797622821798af5ea614",
+      "dirty": true,
+      "workingTreeHash": "801771ca46d5f290231fd8533144741e6a19312c4bd6b02878ab7b1bc523ab69"
+    },
+    "language-jsonnet": {
+      "revision": "ab1ab1f42eeff8fe0448797622821798af5ea614",
+      "dirty": true,
+      "workingTreeHash": "801771ca46d5f290231fd8533144741e6a19312c4bd6b02878ab7b1bc523ab69"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.jsonnet",
+      "sha256": "59b30a9fcb31fe3369bf0f3009cc9a9b91a6230b205eb402f5eee371501d397b"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Jsonnet syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "eae85ded0d158bbab19c6c6129fdcf1a00ef437f44135db20f74f76a973ac32b"
     }
   ]
 }
