@@ -1,6 +1,9 @@
 (id) @variable.other.jsonnet
 ((comment) @comment.line.jsonnet
+  (#match? @comment.line.jsonnet "^(#|//)")
   (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
+((comment) @comment.block.jsonnet
+  (#match? @comment.block.jsonnet "^/\\*"))
 
 ; Literals
 (null) @constant.language.jsonnet
