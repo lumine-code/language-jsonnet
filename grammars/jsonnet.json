@@ -22,6 +22,7 @@
     "injectionsQuery": "jsonnet-injections.scm",
     "foldsQuery": "jsonnet-folds.scm",
     "indentsQuery": "jsonnet-indents.scm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "jsonnet-tags.scm"
   }
 }
